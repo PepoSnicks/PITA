@@ -1,0 +1,158 @@
+/* Estilos generales del Dark Theme */
+body {
+    background-color: #8B1D35;
+    color: #f5f5f5;
+  }
+  
+  /* Estilos de la barra de navegación en el Dark Theme */
+  .navbar {
+    background-color: #8B1D35;
+  }
+  
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #e0e0e0;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff;
+  }
+  
+  /* Estilos de los botones en el Dark Theme */
+  .btn-dark {
+    background-color: #8B1D35;
+    border-color: #8B1D35;
+  }
+  
+  .btn-dark:hover,
+  .btn-dark:focus,
+  .btn-dark:active {
+    background-color: #8B1D35;
+    border-color: #8B1D35;
+  }
+  
+  .btn-red {
+    background-color: #8B1D35;
+  }
+  
+  /* Estilos personalizados para los botones en el Dark Theme */
+  .btn-custom {
+    background-color: #8B1D35;
+    border-color: #8B1D35;
+  }
+  
+  .btn-custom:hover {
+    background-color: #8B1D35;
+    border-color: #8B1D35;
+  }
+  
+  .text-dark-theme {
+    color: #8B1D35; /* Cambia este valor al color que desees */
+  }
+  
+  .navbar-custom .dropdown-menu .dropdown-item {
+  color: #8B1D35; /* Color del texto */
+  }
+  
+  /* Cambiar color del borde del dropdown */
+  .navbar-custom .dropdown-menu {
+  border-color: #8B1D35; /* Color vino */
+  }
+  
+  /* Cambiar color del botón dropdown */
+  .navbar-custom .dropdown-toggle {
+  color: #fff; /* Color del texto */
+  background-color: #8B1D35; /* Color vino */
+  border-color: #8B1D35; /* Color vino */
+  }
+  
+  /* Cambiar color del botón dropdown al estar activo */
+  .navbar-custom .dropdown-toggle:hover,
+  .navbar-custom .dropdown-toggle:focus {
+  color: #fff; /* Color del texto */
+  background-color: #8B1D35; /* Color vino oscuro */
+  border-color: #8B1D35; /* Color vino oscuro */
+  }
+  
+  /* Cambiar color del botón dropdown */
+  .navbar-dark .dropdown-toggle {
+  color: #fff; /* Color del texto */
+  background-color: #8B1D35; /* Color vino */
+  border-color: #8B1D35; /* Color vino */
+  }
+  
+  /* Cambiar color del botón dropdown al estar activo */
+  .navbar-dark .dropdown-toggle:hover,
+  .navbar-dark .dropdown-toggle:focus {
+  color: #fff; /* Color del texto */
+  background-color: #8B1D35; /* Color vino oscuro */
+  border-color: #8B1D35; /* Color vino oscuro */
+  }
+  
+  /* Cambiar color del ovalo del dropdown */
+  .navbar-dark .dropdown-toggle::after {
+  border-top-color: #8B1D35; /* Color vino */
+  }
+  
+  /* Cambiar color del ovalo del dropdown al estar activo */
+  .navbar-dark .dropdown-toggle:focus::after,
+  .navbar-dark .dropdown-toggle:hover::after {
+  border-top-color: #8B1D35; /* Color vino oscuro */
+  }
+  
+  /* Estilos de fondo en modo oscuro */
+  body {
+  background-image: url('../../imagenes/2.gif'); /* Ruta de la imagen para el modo oscuro */
+  background-size: cover; /* Ajustar tamaño de la imagen */
+  background-repeat: no-repeat; /* Evitar repetición de la imagen */
+  }
+  
+  /* Estilos generales del Dark Theme 
+  body {
+  background-color: #212121;
+  color: #f5f5f5;
+  } */
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+  background-color: #8B1D35; /* Color vino */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffffff;
+  }
+  
+  /* Estilos del botón dropdown */
+  .navbar-dark .dropdown-toggle {
+  color: #fff;
+  background-color: #8B1D35; /* Color vino */
+  border-color: #8B1D35; /* Color vino */
+  }
+  
+  .navbar-dark .dropdown-toggle:hover,
+  .navbar-dark .dropdown-toggle:focus {
+  color: #fff;
+  background-color: #8B1D35; /* Color vino oscuro */
+  border-color: #8B1D35; /* Color vino oscuro */
+  }
+  
+  /* Cambiar color del ovalo del dropdown */
+  .navbar-dark .dropdown-toggle::after {
+  border-top-color: #8B1D35; /* Color vino */
+  }
+  
+  /* Cambiar color del ovalo del dropdown al estar activo */
+  .navbar-dark .dropdown-toggle:focus::after,
+  .navbar-dark .dropdown-toggle:hover::after {
+  border-top-color: #8B1D35; /* Color vino oscuro */
+  }
+  
+  
+  /* Ajustes para otros elementos según sea necesario en el Dark Theme */
+  /* Por ejemplo, si tienes tablas o elementos de formulario, también podrías ajustar sus estilos aquí */

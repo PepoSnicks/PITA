@@ -1,0 +1,134 @@
+/*#1E4D6B en rgba(30, 77, 107, 1)
+#4897D8 en rgba(72, 151, 216, 1)
+#2F6690 en rgba(47, 102, 144, 1)
+#1D3461 en rgba(29, 52, 97, 1)
+#2468A0 en rgba(36, 104, 160, 1)
+#0096C7 en rgba(0, 150, 199, 1) */
+
+body{
+    background-color: #343A40;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #343A40;
+    background-position: center center;
+    background-size: cover;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 450px;
+    max-width: 450px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 5px solid #343A40;
+
+}
+
+.login-box img {
+    display: block;
+    margin: 0 auto 40px;
+    max-width: 200px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box form p {
+    margin: 0px 0;
+}
+
+/* Para los inputs */
+.login-box input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.login-box button.btn,
+.login-box a.btn {
+  text-decoration: none;
+  color: #343A40;
+}
+
+.login-box button.btn:hover,
+.login-box a.btn:hover {
+  text-decoration: none;
+  color: #0096C7;
+  font-weight: bold;
+}
+
+input[type="radio"]:checked + label {
+    color: #0096C7;
+    font-weight: bold;
+  }
+  
+
+/* Para el efecto de línea abajo gris al hacer click */
+.login-box input:focus {
+    border-bottom: 1px solid #343A40;
+}
+
+.btn-iniciar:hover {
+    background-color: #0096C7;
+    border-color: #0096C7;
+    font-weight: bold;
+}
+.btn-iniciar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal-content {
+    border-radius: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .form-label {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-label {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .form-label {
+        font-size: 16px;
+    }
+}  
+
+@media (max-width: 767px) {
+    .mb-3 {
+      margin-bottom: 1rem !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .login-box {
+        margin-top: 0;
+        padding: 0;
+    }
+}
+
+  
+  
